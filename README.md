@@ -4,6 +4,7 @@ The solution of exercises from the [cmdchallenge.com](https://cmdchallenge.com)
 * hello_world: `echo 'hello world'`
 * current_working_directory: `pwd`
 * list_files: `ls`
+* list_files_adv: `ls -aF`
 * nested_dirs: `cat "./.../  /. .the flag.txt"`
 * print_file_contents: `cat access.log`
 * last_lines: `tail -n 5 access.log`
