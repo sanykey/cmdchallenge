@@ -17,3 +17,4 @@ The solution of exercises from the [cmdchallenge.com](https://cmdchallenge.com)
 * print_number_sequence: `for (( i=1; i<=100; i++ )); do echo -n "$i "; done`
 * remove_files_with_a_dash: `rm ./-*`
 * remove_files_with_extension: `rm ./**/*.doc`
+* print_nth_line: `head -n 25 faces.txt | tail -n 1`
