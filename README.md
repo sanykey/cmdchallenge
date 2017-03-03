@@ -10,6 +10,7 @@ The solution of exercises from the [cmdchallenge.com](https://cmdchallenge.com)
 * last_lines: `tail -n 5 access.log`
 * find_string_in_a_file: `grep "GET" access.log`
 * find_tabs_in_a_file: `grep -P "\t" file-with-tabs.txt | wc -l`
+* search_for_files_containing_string: `grep -Rl "500" . | sed "s/.*\///"`
 * search_for_files_by_extension: `ls access.log*`
 * search_for_string_in_files_recursive: `grep -Rh "500" ./**/access.log*`
 * count_files: `ls | wc -l`
