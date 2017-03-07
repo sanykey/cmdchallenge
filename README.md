@@ -17,6 +17,7 @@ The solution of exercises from the [cmdchallenge.com](https://cmdchallenge.com)
 * count_files: `ls | wc -l`
 * simple_sort: `sort access.log`
 * count_string_in_line: `grep "GET" access.log | wc -l`
+* split_on_a_char: `sed "s/;/\n/g" split-me.txt`
 * print_number_sequence: `for (( i=1; i<=100; i++ )); do echo -n "$i "; done`
 * remove_files_with_a_dash: `rm ./-*`
 * remove_files_with_extension: `rm ./**/*.doc`
