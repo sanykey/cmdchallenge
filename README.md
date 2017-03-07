@@ -13,6 +13,7 @@ The solution of exercises from the [cmdchallenge.com](https://cmdchallenge.com)
 * search_for_files_containing_string: `grep -Rl "500" . | sed "s/.*\///"`
 * search_for_files_by_extension: `ls access.log*`
 * search_for_string_in_files_recursive: `grep -Rh "500" ./**/access.log*`
+* delete_files: `rm -r * .*`
 * count_files: `ls | wc -l`
 * simple_sort: `sort access.log`
 * count_string_in_line: `grep "GET" access.log | wc -l`
